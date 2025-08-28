@@ -1,0 +1,26 @@
+body { font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 33px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: #646d8b; /* Web sayfasının arka plan rengi */
+    color: #d1cccc; /* Metin rengi */
+}
+p {
+    color: #000000;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color: #c11e04; /* Başlık rengi */
+    text-align: center;
+    animation: blink 1s infinite; /* Başlıkta yanıp sönme efekti */
+    font-size: 48px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+@keyframes blink {
+  20% { opacity: 1; }
+  50% { opacity: 0.5; }
+  80% { opacity: 1; }
+}
+#sould{
+    border-radius: 20px;
+}
+

@@ -14,11 +14,15 @@ h2 {
     animation: blink 1s infinite; /* Başlıkta yanıp sönme efekti */
     font-size: 48px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+    animation: blink 2s infinite; 
 }
 @keyframes blink {
-  20% { opacity: 1; }
-  50% { opacity: 0.5; }
-  80% { opacity: 1; }
+  0% { color: black;}
+    50% { color: red;}
+    100% { color: black;}
+}
+image{
+    border-radius: 20px;
 }
 #sould{
     border-radius: 20px;
